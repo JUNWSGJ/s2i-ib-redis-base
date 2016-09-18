@@ -6,5 +6,5 @@ echo "---- * building/configuring it ..."
 
 #mv /etc/redis.conf /etc/redis.conf.backup
 
-#cp /tmp/src/conf/redis.conf /etc
+cp /tmp/src/conf/redis.conf /ib/appl
 

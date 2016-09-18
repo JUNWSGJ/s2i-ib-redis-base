@@ -29,6 +29,6 @@ RUN find /ib/appl -type d -exec chmod g+x {} +
 
 USER 1001
 
-EXPOSE 8080
+EXPOSE 6379
 
 CMD ["/usr/libexec/s2i/usage"]
