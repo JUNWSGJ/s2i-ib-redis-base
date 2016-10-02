@@ -4,6 +4,12 @@ FROM  centos
 MAINTAINER Justin Davis <justinndavis@gmail.com>
 
 ENV BUILDER_VERSION 1.0
+ENV REDIS_VERSION 2.x
+
+LABEL name="Iberia Base Centos/Redis Image" \
+      vendor=Iberia \
+      license=GPLv2 \
+      build-date=20161002
 
 LABEL io.k8s.description="Image for building Redis deployments" \
       io.k8s.display-name="Redis builder 1.0.0" \
