@@ -4,7 +4,7 @@ FROM  centos
 MAINTAINER Justin Davis <justinndavis@gmail.com>
 
 ENV BUILDER_VERSION 1.0
-ENV REDIS_VERSION 2.x
+ENV REDIS_VERSION 2.8.19
 
 LABEL name="Iberia Base Centos/Redis Image" \
       vendor=Iberia \
